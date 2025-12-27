@@ -138,7 +138,6 @@ def minimax(curDepth, nodeIndex, maxTurn, scores, targetDepth, alpha, beta):
     best_value = minimax(0, 0, True, scores, targetDepth, -math.inf, math.inf)
     print("The optimal value is:", best_value)
 ```
-
 <hr>
 <h2>Sample Input and Output</h2>
 
